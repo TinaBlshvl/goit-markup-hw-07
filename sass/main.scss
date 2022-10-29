@@ -1,1 +1,15 @@
- @import './reset/reset'
+ @import './reset/reset';
+
+ @import './utils/header';
+ @import './utils/footer';
+
+ @import './components/modal';
+
+ @import './layouts-index/hero';
+ @import './layouts-index/privilege';
+ @import './layouts-index/about';
+ @import './layouts-index/team';
+ @import './layouts-index/regular-clients';
+ @import './layouts-index/footer';
+
+ @import './layouts-portfolio';

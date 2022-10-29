@@ -1,0 +1,30 @@
+.privilege-list {
+    display: flex;
+    gap: 30px;
+}
+
+.privilege .privilege-title {
+    line-height: 1.14;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.privilege-text {
+    color: var(--text-color);
+
+    line-height: 1.71;
+
+    max-width: 270px;
+}
+
+.privilage-soc-link {
+    display: flex;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+
+    align-items: center;
+    justify-content: center;
+}
