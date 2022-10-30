@@ -7,12 +7,12 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.portfolio-list-content {
+.portfolio-content {
     padding: 20px 24px;
     border: 1px solid #EEE;
 }
 
-.portfolio .navi-btn {
+.portfolio-btn__btn {
     background-color: var(--btn-color);
 
     border-radius: 4px;
@@ -27,7 +27,7 @@
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navi-list {
+.portfolio-btn__list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,63 +35,63 @@
     margin-bottom: 50px;
 }
 
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-cards__item:hover,
+.portfolio-cards__item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio .portfolio-title {
+.portfolio-content__title {
     margin-bottom: 4px;
 }
 
-.portfolio .navi-btn:hover,
-.portfolio .navi-btn:focus {
+.portfolio-btn__btn:hover,
+.portfolio-btn__btn:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio .navi-btn.current {
+.portfolio-btn__btn.current {
     background-color: var(--accent-color);
     color: var(--white-color);
     padding: 6px 25px;
 }
 
 
-.portfolio-list {
+.portfolio-cards__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.portfolio-list-item {
+.portfolio-cards__item {
     width: calc((100% - 60px) / 3);
 }
 
-.portfolio-list-item:hover {
+.portfolio-cards__item:hover {
     display: block;
 }
 
-.portfolio-list-item:hover .portfolio-hover-text,
-.portfolio-list-item:focus .portfolio-hover-text {
+.portfolio-cards__item:hover .portfolio-cards__text,
+.portfolio-cards__item:focus .portfolio-cards__text {
     transform: translateY(0);
     /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.portfolio-title {
+.portfolio-content__title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.portfolio .portfolio-text {
+.portfolio-content__text {
     color: var(--text-color);
 
     font-size: 16px;
     line-height: 1.87;
 }
 
-.portfolio-hover-text {
+.portfolio-cards__text {
     position: absolute;
     top: 0;
     left: 0;
@@ -111,11 +111,11 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list-item {
+.portfolio-cards__item {
     position: relative;
 }
 
-.portfolio-hover {
+.portfolio-cards__hover {
     position: relative;
     overflow: hidden;
 }

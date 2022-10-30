@@ -1,4 +1,4 @@
-.regular-clients-list {
+.regular-list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     margin-top: 50px;
 }
 
-.regular-clients-link {
+.regular-list__link {
     display: flex;
     height: 92px;
     width: 170px;
@@ -21,12 +21,12 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.regular-clients-icon {
+.regular-list__icon {
     fill: currentColor;
 }
 
-.regular-clients-link:hover,
-.regular-clients-link:focus {
+.regular-list__link:hover,
+.regular-list__link:focus {
     border-color: var(--accent-color);
     color: var(--accent-color);
 }

@@ -1,21 +1,18 @@
-.section-title {
-    margin-bottom: 50px;
-}
-
 .about {
     padding-top: 0;
 }
 
-.about-list {
+.about__list {
     display: flex;
     gap: 30px;
 }
 
-.about-item {
+.about__item {
     width: calc((100% - 60px) / 3);
+    position: relative;
 }
 
-.about-text {
+.about__text {
     font-size: 14px;
     line-height: 1.14;
     color: var(--white-color);
@@ -33,8 +30,4 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.about-item {
-    position: relative;
 }

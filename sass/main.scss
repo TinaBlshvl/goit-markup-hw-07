@@ -1,15 +1,13 @@
- @import './reset/reset';
-
- @import './utils/header';
- @import './utils/footer';
-
- @import './components/modal';
-
- @import './layouts-index/hero';
- @import './layouts-index/privilege';
+ @import  './layouts-index/hero';
+ @import './layouts-index/privilage';
  @import './layouts-index/about';
  @import './layouts-index/team';
- @import './layouts-index/regular-clients';
- @import './layouts-index/footer';
+ @import './layouts-index/regular';
 
- @import './layouts-portfolio';
+ @import './layouts-portfolio/portfolio.scss';
+
+ @import './utils/footer';
+ @import './utils/modal';
+ @import './utils/header';
+
+ @import './reset/reset'
