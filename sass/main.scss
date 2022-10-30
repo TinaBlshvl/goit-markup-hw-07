@@ -1,3 +1,8 @@
+ @import './utils/mixin';
+ @import './utils/footer';
+ @import './utils/modal';
+ @import './utils/header';
+ 
  @import  './layouts-index/hero';
  @import './layouts-index/privilage';
  @import './layouts-index/about';
@@ -5,9 +10,5 @@
  @import './layouts-index/regular';
 
  @import './layouts-portfolio/portfolio.scss';
-
- @import './utils/footer';
- @import './utils/modal';
- @import './utils/header';
 
  @import './reset/reset';

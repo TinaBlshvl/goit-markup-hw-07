@@ -4,8 +4,7 @@
 }
 
 .privilage .privilage__title {
-    line-height: 1.14;
-    font-size: 14px;
+    @include font(null, 14px, 1.14, null);
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -19,12 +18,10 @@
 }
 
 .privilage__soc {
-    display: flex;
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
     border-radius: 4px;
 
-    align-items: center;
-    justify-content: center;
+    @include display();
 }

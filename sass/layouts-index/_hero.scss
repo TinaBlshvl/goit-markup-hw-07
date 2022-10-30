@@ -14,14 +14,12 @@
     background-size: cover;
 }
 
-.hero__title {
+.hero__title { 
+
     color: var(--white-color);
 
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36;
+    @include font(900, 44px, 1.36, 0.06em);
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     max-width: 696px;
 
@@ -38,12 +36,10 @@
     height: 50px;
     left: 692px;
     top: 430px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    
+    @include font(700, 16px, 1.87, 0.06em);
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     min-width: 216px;

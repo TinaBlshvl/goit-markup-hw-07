@@ -1,7 +1,6 @@
 .regular-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include display();
+    
     gap: 30px;
     margin-top: 50px;
 }
@@ -11,8 +10,7 @@
     height: 92px;
     width: 170px;
 
-    align-items: center;
-    justify-content: center;
+    @include display($df:null);
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
