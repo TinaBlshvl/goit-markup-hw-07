@@ -13,10 +13,11 @@
 
     padding-top: 200px;
     padding-bottom: 200px;
+
+    margin-bottom: 94px;
 }
 
 .hero__title { 
-
     color: var(--white-color);
 
     @include font(900, 44px, 1.36, 0.06em);

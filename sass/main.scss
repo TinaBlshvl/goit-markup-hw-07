@@ -1,15 +1,21 @@
+ @import './utils/variables';
+ @import './utils/hidden';
+
  @import './base/reset';
+ @import './base/body';
 
- @import './utils/mixin';
- @import './utils/footer';
- @import './utils/modal';
- @import './utils/header';
+ @import './components/mixin';
+ @import './components/container';
+ @import './components/section';
+ @import './components/modal';
  
- @import './layouts-index/hero';
- @import './layouts-index/privilage';
- @import './layouts-index/about';
- @import './layouts-index/team';
- @import './layouts-index/regular';
+ @import './layout/header';
+ @import './layout/hero';
+ @import './layout/privilage';
+ @import './layout/about';
+ @import './layout/team';
+ @import './layout/regular';
+ @import './layout/footer';
 
- @import './layouts-portfolio/portfolio.scss';
+ @import './pages/portfolio';
 
