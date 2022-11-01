@@ -1,10 +1,10 @@
+ @import './utils/mixin';
  @import './utils/variables';
  @import './utils/hidden';
 
  @import './base/reset';
- @import './base/body';
+ @import './base/common';
 
- @import './components/mixin';
  @import './components/container';
  @import './components/section';
  @import './components/modal';
